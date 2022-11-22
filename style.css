@@ -7,5 +7,6 @@
 /* component imports*/ 
 
 @import "componets/_header.css";
+@import "componets/_logo.css";
 @import "componets/_main.css";
 @import "componets/_footer.css";

@@ -1,0 +1,46 @@
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: var(--lightblue);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20px, 200px, 200px;
+    gap: 20px;
+}
+
+h2 {
+    padding: 10px 20px 10px 20px;
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+}
+
+
+.first {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.second {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+.third {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+}
+
+.fourth {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.fifth {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+}
+
+.sixth {
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+}

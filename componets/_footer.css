@@ -1,0 +1,14 @@
+footer {
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    background-color: var(--gray);
+    color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.opening_hours {
+
+}
