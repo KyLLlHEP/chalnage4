@@ -2,9 +2,23 @@ main {
     max-width: 1100px;
 }
 
-figure{
+figure {
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid var(--gray);
     border-radius: 5px;
-    
+    }
+
+
+form input {
+    background: var(--white)
+    border: 1px solid var(--gray);
+  }
+
+  input:focus {
+    outline: 3px solid var(--gold);
+  }
+
+.btn {
+    width: 120px;
+    height: 40px;
 }
